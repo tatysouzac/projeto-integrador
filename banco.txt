@@ -1,0 +1,9 @@
+create database projetointegrador;
+use projetointegrador;
+
+create table cliente_ofertas(
+id int(2) auto_increment,
+nome varchar(80),
+email varchar(80),
+primary key(id)
+);
